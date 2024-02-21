@@ -41,7 +41,7 @@ const SelectedContact = ({ selectedContactId, setSelectedContactId }) => {
                 <li>Phone: {phone} </li>
                 <li>Email: {email} </li>
             </ul>
-            <button OnClick = {handleBackButtonClick}> Back to List </button>
+            <button onClick = {handleBackButtonClick}> Back to List </button>
         </div>
 
     );
